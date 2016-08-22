@@ -1,3 +1,8 @@
 test:
   override:
     - mocha ./test/test.js
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: fast-brook-47692
